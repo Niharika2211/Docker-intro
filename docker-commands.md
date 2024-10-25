@@ -71,6 +71,3 @@ docker run -d -p <host-port>:<container-port> <container-name>
 ```
 
 ---
-
-Add this file to your repository so it’s easy to reference and copy commands as needed.
-```
