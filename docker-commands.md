@@ -1,17 +1,12 @@
-To create a Markdown file (.md) for these Docker commands for a GitHub repository, let's format it so the commands are easy to read and copy. This file will be called `Docker_Commands.md`.
-
-Here's the structured Markdown content:
-
-```markdown
 # Docker Cheat Sheet
 
-## Docker Overview
+### Docker Overview
 
 - **Virtualization**: Divides a large physical server into multiple logical servers, often using a hypervisor.
 - **Microservices & Containers**: Containers facilitate microservices, allowing efficient resource utilization with minimal footprint and faster boot times.
 - **Portability**: Docker images are similar to AMIs, designed for easy movement and reuse across environments.
 
-## Docker Image Structure
+### Docker Image Structure
 
 - A Docker image consists of:
   - A **bare minimum OS** (without unnecessary packages)
@@ -19,7 +14,7 @@ Here's the structured Markdown content:
   - **System packages and dependencies**
   - **Application code**
 
-## Docker Installation
+### Docker Installation
 
 Install Docker according to your OS (e.g., RHEL, Ubuntu). After installation, Docker creates a group, and only users in this group can run Docker commands.
 
@@ -69,5 +64,3 @@ To allow internet access to a Docker container, forward the desired host port to
 ```bash
 docker run -d -p <host-port>:<container-port> <container-name>
 ```
-
----
