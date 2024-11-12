@@ -46,14 +46,6 @@
   docker system prune -a
   ```
 
-### 📂 Volumes and Networks
-- **List Docker volumes**:
-  ```bash
-  docker volume ls
-  ```
-
----
-
 ### 📄 Notes
 - Replace `<container_id>` or `<image_id>` with the respective IDs.
 - Use `docker ps` to get the container IDs of running containers.
