@@ -4,9 +4,11 @@
 
 ## 📦 Container Metadata and Information
 - **Inspect a running container** to get detailed information:
+
   ```bash
   docker inspect <container_id>
   ```
+
 - **Inspect an image** to get metadata:
   ```bash
   docker inspect <image_id>
@@ -33,7 +35,6 @@
   ```
 
 ## 🚀 Useful Docker Commands for Management
-  ```
 - **Stop a running container**:
   ```bash
   docker stop <container_id>
@@ -59,4 +60,3 @@
 - Use `docker images` to get the image IDs.
 
 Happy Dockerizing! 🐋🚀
-```
